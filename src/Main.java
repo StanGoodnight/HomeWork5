@@ -37,7 +37,7 @@ public class Main {
         System.out.println("Задача 3.");
 
         int year = 1996;
-        {
+
 
             if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
                 System.out.println(year + " год является високосным.");
@@ -45,7 +45,7 @@ public class Main {
             } else {
                 System.out.println(year + " Год не является високосным.");
             }
-        }
+
         System.out.println("Задача 4.");
 
         int deliveryDistance = 95;
